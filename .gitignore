@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+*.pem
+.env
+package-lock.json
+index原始.js
+_index.js
+hell.json
+ttt.js
+setarray.js
