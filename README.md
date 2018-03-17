@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# my-fifth-app
-
-> a GitHub App built with [probot](https://github.com/probot/probot) that 
-=======
 # Digest
 
 > a GitHub App built with [probot](https://github.com/probot/probot)
@@ -17,7 +12,6 @@
 
 
 - When opening a new issue creating a new comment, you can use this phrase of "new release" to get the tag(s) of version(s) was/were published within 7 days in this profile.
->>>>>>> temp-branch
 
 ## Setup
 
