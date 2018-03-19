@@ -11,7 +11,7 @@
 - When opening a new issue or creating a new comment, you can use this phrase of "most popular issue" to get the url of the most popular issue in this profile.
 
 
-- When opening a new issue creating a new comment, you can use this phrase of "new release" to get the tag(s) of version(s) was/were published within 7 days in this profile.
+- When opening a new issue or creating a new comment, you can use this phrase of "new release" to get the tag(s) of version(s) was/were published within 7 days in this profile.
 
 ## Setup
 
