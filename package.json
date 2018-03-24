@@ -7,7 +7,7 @@
   "repository": "https://github.com/2pen/my-fifth-app.git",
   "scripts": {
     "start": "probot run ./index.js",
-    "test": "jest"
+    "test": "jest && standard"
   },
   "dependencies": {
     "mocha": "^5.0.5",
