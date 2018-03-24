@@ -26,7 +26,7 @@ module.exports =
     return maxItem
   },
   response: function (aim, context, issue_url, tagstring) {
-    if (aim.toLowerCase().includes('mast')) { context.github.issues.createComment(context.issue({body: 'The issue was commented most frequently：' + issue_url})) }
+    if (aim.toLowerCase().includes('most')) { context.github.issues.createComment(context.issue({body: 'The issue was commented most frequently：' + issue_url})) }
     if (aim.toLowerCase().includes('new release')) { context.github.issues.createComment(context.issue({body: 'This week published :' + tagstring})) }
   },
   GetDateStr: function (AddDayCount) {
@@ -36,7 +36,8 @@ module.exports =
     var m = (dd.getMonth() + 1) < 10 ? '0' + (dd.getMonth() + 1) : (dd.getMonth() + 1)
     var d = dd.getDate() < 10 ? '0' + dd.getDate() : dd.getDate()
     return y + '-' + m + '-' + d
-  },
+  },
+
   TsfTime: function (str) {
     let value = str.split('T')
     value = value.splice(1, 1)

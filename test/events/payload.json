@@ -1,0 +1,30 @@
+
+{
+     "event": "issues",
+     "payload": 
+{
+    "action": "opened",
+    "issue": {
+      "number": 34,
+      "title": "most popular issue",
+      "user": {
+        "login": "5pen"
+      },
+      "comments": 0,
+      "body": ""
+    },
+    "repository": {
+      "name": "my-first-app",
+      "owner": {
+        "login": "2pen"
+      }
+
+    },
+    "sender": {
+      "login": "5pen"
+    },
+    "installation": {
+      "id": 96480
+    }
+  }
+}

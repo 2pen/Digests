@@ -1,5 +1,5 @@
 const lib = require('./lib')
-const createScheduler = require('probot-scheduler')
+// const createScheduler = require('probot-scheduler')
 let setarray = lib.setArr
 let response = lib.response
 let GetDateStr = lib.GetDateStr
